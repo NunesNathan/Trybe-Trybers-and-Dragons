@@ -13,5 +13,5 @@ export default abstract class Race {
     throw new Error('Not implemented');
   }
 
-  abstract maxLifePoints(): number;
+  abstract get maxLifePoints(): number;
 }
